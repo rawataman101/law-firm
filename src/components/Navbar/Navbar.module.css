@@ -1,0 +1,33 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu__text {
+  color: var(--color-w);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0em;
+  text-align: center;
+  cursor: pointer;
+}
+
+.button {
+  width: 172px;
+  height: 47px;
+  border: 2px solid var(--color-w);
+  background-color: var(--color-b);
+  color: var(--color-w);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0em;
+  cursor: pointer;
+}
