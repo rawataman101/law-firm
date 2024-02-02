@@ -31,3 +31,10 @@
   letter-spacing: 0em;
   cursor: pointer;
 }
+
+.socialIcons {
+  width: 187px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}

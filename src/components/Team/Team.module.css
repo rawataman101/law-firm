@@ -1,0 +1,21 @@
+.team {
+  color: var(--color-w);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #1d1d1d;
+}
+.team__h1 {
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 200px;
+}
+.team__card {
+  display: flex;
+  justify-content: center;
+}

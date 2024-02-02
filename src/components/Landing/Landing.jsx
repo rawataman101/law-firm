@@ -6,7 +6,7 @@ import Hero from "../Hero/Hero";
 function Landing() {
   return (
     <div className={styles.landing}>
-      <Navbar />
+      <Navbar type={"notFooter"} />
       <Hero />
     </div>
   );

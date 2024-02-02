@@ -1,0 +1,95 @@
+.faq {
+  height: 100vh;
+  color: var(--color-w);
+  display: flex;
+  justify-content: space-around;
+  background-color: #1d1d1d;
+  padding: 150px;
+}
+
+.faq__text {
+  width: 557px;
+}
+
+.faq__text h1 {
+  width: 106px;
+  height: 75px;
+
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 75px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.faq__text p {
+  height: 58px;
+  opacity: 0.3;
+
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.faq__info h4 {
+  width: 399px;
+  height: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 12.5%;
+}
+
+.faq__info p {
+  margin-top: 40px;
+  width: 557px;
+  height: 145px;
+  opacity: 0.3;
+  text-align: left;
+}
+
+.accordians {
+  width: 564px;
+}
+
+.accordian {
+  color: var(--color-w) !important;
+  background-color: #1d1d1d !important;
+  height: 24px;
+
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accordian__h3 {
+  width: 525px;
+  height: 24px;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.accordian__p {
+  display: none;
+}
+
+.line {
+  background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(0deg, #d9d9d9, #d9d9d9);
+  width: 564px;
+  border: 2px solid white;
+  opacity: 0.05;
+}

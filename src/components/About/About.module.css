@@ -1,0 +1,81 @@
+.about {
+  padding: 100px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(0deg, #1d1d1d, #1d1d1d),
+    linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1));
+}
+.about__introWrapper {
+  display: flex;
+  justify-content: space-evenly;
+  height: 174px;
+}
+.about__intro1 {
+  width: 387px;
+  height: 174px;
+  margin-right: 170px;
+}
+
+.about__intro1 h1 {
+  color: var(--color-w);
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 87px;
+  letter-spacing: 0em;
+}
+
+.about__introLine {
+  width: 0px;
+  border: 1px solid #6a6a6a;
+}
+
+.about__intro2 {
+  width: 475px;
+  height: 155px;
+  margin-left: 95px;
+}
+
+.about__intro2 h3 {
+  color: var(--color-w);
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 52px;
+  letter-spacing: 0em;
+}
+
+.about__intro2 p {
+  color: var(--color-w);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 29px;
+  letter-spacing: 0em;
+  width: 475px;
+  height: 87px;
+  top: 1152px;
+  opacity: 0.3;
+}
+
+.about__cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about__cards h1 {
+  color: var(--color-w);
+  font-size: 54px;
+  font-weight: 600;
+  line-height: 77px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.aboutCards__cards {
+  display: flex;
+  gap: 20px;
+}
